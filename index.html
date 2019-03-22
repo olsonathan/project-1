@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Olympic Gold</title>
+
+    <link rel="icon" href="olympics.png">
+
+    <!--Google Fonts-->
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Srisakdi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Srisakdi" rel="stylesheet">
+    <!--viewport Mobile-responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="assets/papa_parse.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+    <!-- Custom JS Files -->
+    <script src="assets/dropdowns2.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body background="https://i.ytimg.com/vi/HbJuCYhSWII/maxresdefault.jpg">
+
+    <!-- Begin Bootstrap container -->
+
+    <div class="container">
+
+        <!-- Begin Jumbotron  -->
+
+        <div class="row">
+            <div class=col-lg-12>
+                <div class="jumbotron">
+                    <h1 class="jumbo">Olympic Gold</h1>
+                    <p class="lead">Your guide to the best athletes around the world both past and present</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- End  Jumbotron  -->
+
+        <!-- Begin Search Selections-->
+
+        <form>
+            <!-- Games Selection -->
+            <div class="form-group row">
+                <div class="col-md-12">
+                    <select name="games" id="games" class="custom-select">
+                        <option value="" >Select Games</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <!-- Sports Selection -->
+            <div class="form-group row">
+                <div class="col-md-12">
+                    <select name="sports" id="sports" class="custom-select">
+                        <option value="" >Select a Sport</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <!-- Event Selection -->
+            <div class="form-group row">
+                <div class="col-md-12">
+                    <select name="events" id="events" class="custom-select">
+                        <option value="">Select an Event</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <button type="button" onclick="window.location.href='results.html';" id="add-data" class="btn btn-primary">Search</button>
+        </form>
+
+        <!-- End Search Selections-->
+
+    </div>
+
+    <!-- End Bootstrap Container-->
+
+    <script type="text/javascript" src="assets/group.js"></script>
+</body>
+
+</html>
